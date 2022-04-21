@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c893f9f79a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lookshop</title>
+</head>
+<body>
+    <header>
+      <div class="header-top-line">
+        <div class="custom_care">
+          <span>CUSTOM CARE:</span>
+          <span class="t888">888-23-4567</span>
+         </div> 
+        <div class="other_text">
+          <span class="us">
+            <select class="valut">
+              <option selected>$ US</option>
+              <option>€ EU</option>
+              <option>₽ RU</option>
+              <option>₴ UAH</option>
+            </select>
+          </span>
+          <span class="user"><i class="fa-solid fa-user"></i></span>
+          <span class="my_account"> <a href="#"> MY ACCOUNT</a></span>
+          <span class="loopa"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></span>
+        </div>
+      </div>
+      
+      <div class="header-main">
+        <div class="header-logo"> 
+          <a href="index.html">
+            <img src="images/logo.png" alt="Упс, картинки нет">
+        </a>   </div> 
+
+        <div class="nav-menu">
+          <ul>
+            <li>
+              <a class="new" href="#">new<i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a class="designers" href="#">designers<i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a class="women" href="#">women<i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a class="men" href="#">men<i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li>
+              <a class="clearence" href="#">clearence<i class="fa-solid fa-caret-down"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="your_cart">  
+          <select class="cart">
+            <option>Your cart</option> </select>
+          </select>
+          <div class="div-cart">
+            <img src="images/cart.png" alt="Картинки нет">
+            <span class="sp1">0 ITEMS </span>|
+             <span class="sp2"> $ 0</span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="header-hr1">
+
+      <div class="header-bottom-line">
+        <div class="header-way">
+         <span> <a href="#"><i class="fa-solid fa-house"></i></a> </span>    
+          <span>></span>
+          <span><a href="#">Women</a></span>
+          <span>></span>
+          <span><a href="#">Clothing</a></span>
+          <span>></span>
+          <span><a href="#">Blouses & Shirts</a> </span>
+          <span>></span>
+          <span><a href="#">B.young</a> </span>
+          <span>></span>
+          <span><a href="#">Sofi Blouse</a> </span>
+          
+          </div>
+        
+      </div>
+      
+      <hr class="header-hr2">
+    
+    </header>
+   <section id = "content">
+     <img class= "main-img"  id ="main">
+     <img class= "lil-img" src="images/woman1.png" onclick="reSize(0)">
+     <img class= "lil-img1" src="images/woman2.png" onclick="reSize(1)">
+     <img class= "lil-img2" src="images/woman3.png" onclick="reSize(2)">
+     <img class = "lil-img3" src="images/woman4.png" onclick="reSize(3)">
+
+   </section>
+
+    <aside>
+      <div class="back-to">
+        <span>
+        <i class="fa-solid fa-angle-left"></i>
+          Back to
+        <a href="#">Women's Clothing</a>
+        </span>
+        </div>
+      <hr class ="aside-hr1">
+      <div class="sofi-blouse">Sofi Blouse</div>
+     
+        <div class="price">$98.95</div>
+        <span class="reviews"> <a href="#">  12 reviews</a>  </span>
+        <span class="cubs"><img src="images/cub2.png" alt="">
+        <img src="images/cub2.png" alt="">
+        <img src="images/cub2.png" alt="">
+        <img src="images/cub1.png" alt="">
+        <img src="images/cub3.png" alt=""></span>
+      <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollici- tudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+        <hr class="aside-hr2">
+        
+        <select class="size" id = "myselect" name="sel">
+              
+        </select>
+        
+        <div class="kvadrat">
+          <img src="images/kvadrat1.png" alt="">
+            <img src="images/kvadrat2.png" alt="">
+            <img src="images/kvadrat3.png" alt="">
+            <img src="images/kvadrat4.png" alt="">
+            <img src="images/kvadrat5.png" alt="">
+        </div>
+        <hr class="aside-hr3">
+      
+      <div class="knopki">
+      <button class="btn1">+</button>
+      <button class="btn2">1</button>
+      <button class="btn1">+</button>
+      </div>
+      
+      <div class="add-to"><button class="btnadd">ADD TO CART <i class="fa-solid fa-plus plusik"></i></button></div> 
+      
+    </aside>
+    
+    <container> 
+      <hr class="container-hr1">
+      <div class="share">
+        <a class="a1" href="#"><i class="fa-brands fa-facebook-f  ifacebook"></i> </a><p>SHARE <br/> ON FACEBOOK</p>
+        <a class="a2"href="#"><i class="fa-brands fa-pinterest ipin"></i></a><p>PIN <br/> THIS PRODUCT</p>
+        <a class="a3"href="#"><i class="fa-brands fa-twitter itweet"></i></a><p>TWEET <br/> THIS PRODUCT</p>
+        <a class="a4"href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill iemail" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+        </svg></a><p>EMAIL <br/>A FRIEND</p>
+       
+      </div>
+      <hr class="container-hr2">
+      
+
+      <div class="colored-lines" id="accordeon">
+        <ul class="colorul">
+          <li class="colorline" value="1" id="colorline1"> <span><i class="fa-solid fa-angle-right"></i></span>  DESCRIPTION</li>
+           <div class="tabs__text" id="tabs-1" style="height: 0px;">
+            <ul class="podul" id="podul1">
+              <li>Big night coming up? Out of funds?  </li>
+              <li>We've got your back with women's sale dresses </li>
+              <li>From all your favourite brands.</li>
+            </ul>
+          </div>
+           <li class="colorline" value="1" id="colorline2"> <span><i class="fa-solid fa-angle-right"></i></span>ADDITIONAL INFORMATION</li>
+           <div class="tabs__text" id="tabs-2" style="height: 0px;">
+            <ul class="podul" id="podul2">
+              <li>LOOKSHOP DESIGN  </li>
+              <li>Cotton mini smock shirt dress</li>
+              <li>In white</li>
+            </ul>
+          </div>
+             <li class="colorline" value="1" id="colorline3"><span><i class="fa-solid fa-angle-right"></i></span>REVIEWS (12)</li>
+            <div class="tabs__text" id="tabs-3" style="height: 0px;">
+              <ul class="podul" id="podul3">
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                 </li>
+                <li> PERFECT SHIRT DRESS.</li>
+                <li>Perfect shirt dress. Size perfect, length great, quality great. Cant wait to wear it.</li>
+                <li></li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </li>
+                <li>EASY TO WEAR SHIRT DRESS</li>
+                <li>Perfect shirt dress. Size perfect, length great, quality great. Great for spring and summer season, good quality cotton</li>
+                <li></li>
+                <li>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </li>
+                <li>LOVELY SUMMER DRESS</li>
+                <li>Perfect shirt dress. Size perfect, length great, quality great. Cant wait to wear it.</li>
+              </ul>
+            </div>
+            <li class="colorline" value="1"  id="colorline4"> <span><i class="fa-solid fa-angle-right"></i></span>HELPFUL LINKS</li>
+            <div class="tabs__text" id="tabs-4" style="height: 0px;">
+              <ul class="podul" id="podul4">
+                <li> <a href="https://www.asos.com/women/">Women's Clothes</a> </li>
+                <li> <a href="https://www.asosplc.com/">Investor's site</a> </li>
+              </ul>
+            </div>
+           <li class="colorline" value="1" id="colorline5"> <span><i class="fa-solid fa-angle-right"></i></span>MAKE A GIFT</li>
+           <div class="tabs__text" id="tabs-5" style="height: 0px;">
+            <ul class="podul" id="podul5">
+              <li>GIFT VOUCHERS </li>
+              <li>Delivered by email, on a date of your choice</li>
+              <li>Lookshop gift vouchers – AKA the easiest way to win at presents. Simply choose a design. </li>
+              <li> Top it up with an amount of your choice, drop in a message.</li>
+              <li> And we'll slide it straight into the lucky person's inbox on your chosen day.</li>
+            </ul>
+          </div>
+        </ul>
+            
+        
+    </div>
+
+    </container>
+
+
+
+
+
+
+    <container2>
+         
+        <hr class="container2-hr1">
+        <div class="related-products">RELATED PRODUCTS</div>
+        
+         <div class="gallery">
+           <div class="product"> 
+                  <img  src="images/gal1.png" alt="Картинки нет">
+                  <div class="product-info">
+                  <p class="product-name">NADIA DRESS</p>
+                  <p class="product-price">$64.95</p>
+                  <button class="product-button"> <a href="">ADD TO CART <i class="fa-solid fa-plus"></i></a> </button>
+                  </div>
+            </div>>
+             
+           <div class="product"><img  src="images/gal2.png" alt="Картинки нет">
+            <div class="product-info">
+              <p class="product-name">SOFI BLOUSE</p>
+              <p class="product-price">$26.95</p>
+              <button class="product-button"> <a href="">ADD TO CART <i class="fa-solid fa-plus"></i></a> </button>
+              </div>
+          </div>
+
+           <div class="product"><img  src="images/gal3.png" alt="Картинки нет">
+            <div class="product-info">
+              <p class="product-name">GOODING SHORTS</p>
+              <p class="product-price">$79.95</p>
+              <button class="product-button"> <a href="">ADD TO CART <i class="fa-solid fa-plus"></i></a> </button>
+              </div>
+          </div>
+           <div class="product"><img  src="images/gal4.png" alt="Картинки нет">
+            <div class="product-info">
+              <p class="product-name">MIMOSA LACE DRESS</p>
+              <p class="product-price">$76</p>
+              <button class="product-button"> <a href="">ADD TO CART <i class="fa-solid fa-plus"></i></a> </button>
+              </div>
+          </div>
+            
+            
+         </div>
+
+    </container2>
+
+    <footer>
+
+      <div class="footer-top-line">
+          <span class="we-accept">We accept</span>
+       <div class="pay-img">
+         <img src="images/pay.png" alt="Картинки нет">
+       </div>
+      </div>
+
+      <div class="footer-main">
+        <div class="footer-main-center">
+
+          <div class="div-ul1">
+            <ul class="footer-ul">
+              <li class="first-li">Customer Service</li>
+              <li><a href="#">Contact</a> </li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Terms of payment</a></li>
+              <li><a href="#">Terms of sale</a></li>
+              <li><a href="#">Delivery terms and conditions</a></li>
+              <li><a href="#">Returns and Refunds</a></li>
+            </ul>
+          </div>
+
+          <div class="div-ul2">
+            <ul class="footer-ul">
+              <li class="first-li">Information</li>
+              <li><a href="#">Affiliate</a> </li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">How to Shop</a></li>
+              <li><a href="#">About Nelly</a></li>
+              <li><a href="#">Investor relations</a></li>
+            </ul>
+          </div>
+
+          <div class="div-ul3">
+            <ul class="footer-ul">
+              <li class="first-li">Campaigns</li>
+              <li><a href="#">Evening dresses</a> </li>
+              <li><a href="#">Makeup</a></li>
+              <li><a href="#">Fashion forward</a></li>
+              <li><a href="#">training clothes</a></li>
+              <li><a href="#">Special Occasion Dresses</a></li>
+            </ul>
+          </div>
+
+          <div class="div-ul4">
+            <ul class="footer-ul">
+              <li class="first-li">Stores</li>
+              <li><a href="#">Paris</a> </li>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">London</a></li>
+              <li><a href="#">Madrid</a></li>
+              <li><a href="#">Tokio</a></li>
+            </ul>
+          </div>
+
+          <div class="div-ul5 footer-icons">
+            <ul class="footer-ul ">
+              <li class="first-li">Social</li>
+              
+              <li class="second-circle-li">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i> </a> 
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>  
+              </li>
+              <li class="third-circle-li">
+                  <a href="#"> <i class="fa-brands fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fa-brands fa-tumblr"></i> </a>
+                  <a href="#"><i class="fa-brands fa-vimeo-v"></i> </a>
+                </li>
+            </ul>
+          </div>
+
+          <div class="certificat">
+            <img src="images/sertificat.png" alt="Картинки нет">
+          </div>
+
+        </div> 
+        
+        
+      </div>
+
+      <div class="footer-bottom-line">
+        <div>
+          <ul class="footer-bottom-ul">
+            <li> <a href="#"> Privacy & Cookies</a></li>
+            <li> <a href="#">Terms & Conditions</a> </li>
+            <li> <a href="#">Accessibility</a> </li>
+            <li> <a href="#">Store Directory</a></li>
+            <li> <a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-final-p">
+          <p class="first-part-p">
+            © LookShop.com  
+          </p>
+          <p>
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
